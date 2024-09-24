@@ -14,11 +14,12 @@ If you don’t have imapsync tool, please install it with the below command:
 
 You can start with the migration process from Office 365 to cPanel inside the terminal by using the command.
 
-    Note: Run the command on cPanel server.
+Note: Run the command on cPanel server.
+    imapsync --host1 outlook.office365.com --port1 993 --ssl1 --user1 test@cool.com --passfile1 /etc/secret1 --host2 map.cool.net --port2 993 --ssl2 --user2 test@cool.com --passfile2 /etc/secret2
+    
 
-imapsync --host1 outlook.office365.com --port1 993 --ssl1 --user1 test@cool.com --passfile1 /etc/secret1 --host2 map.cool.net --port2 993 --ssl2 --user2 test@cool.com --passfile2 /etc/secret2
-
-imapsync –host1 outlook.office365.com –port1 993 –ssl1 –user1 test@cool.com –passfile1 /home/cpaneluseraccount/pass1 – Store your outlook or gmail account password in this file –host2 map.cool.net –port2 993 –ssl2 –user2 test@cool.com –passfile2 /home/cpaneluseraccount/pass2
+Example:
+ imapsync –host1 outlook.office365.com –port1 993 –ssl1 –user1 test@cool.com –passfile1 /home/cpaneluseraccount/pass1 – Store your outlook or gmail account password in this file –host2 map.cool.net –port2 993 –ssl2 –user2 test@cool.com –passfile2 /home/cpaneluseraccount/pass2
 
 
 Here, Replace:
