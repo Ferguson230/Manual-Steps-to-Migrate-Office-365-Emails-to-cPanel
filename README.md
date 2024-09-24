@@ -10,7 +10,7 @@ To start with the process, you first need your account details below:
 
 If you don’t have imapsync tool, please install it with the below command:
 
-# sudo yum install imapsync
+    sudo yum install imapsync
 
 You can start with the migration process from Office 365 to cPanel inside the terminal by using the command.
 
